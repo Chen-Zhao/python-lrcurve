@@ -2,7 +2,8 @@
 from .plot_learning_curve import PlotLearningCurve
 #import tensorflow.keras as keras
 
-class KerasLearningCurve(keras.callbacks.Callback):
+#class KerasLearningCurve(keras.callbacks.Callback):
+class KerasLearningCurve():
     """Keras.callback interface to draw learning curve
 
     This attempts to dynamically construct a learning curve plot
