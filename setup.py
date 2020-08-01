@@ -22,7 +22,6 @@ setup(name='lrcurve',
       tests_require=[
         'nose',
         'jupyterlab',
-        'tensorflow',
         'torch',
         'scikit-learn'
       ],
