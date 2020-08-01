@@ -1,6 +1,6 @@
 
 from .plot_learning_curve import PlotLearningCurve
-import tensorflow.keras as keras
+#import tensorflow.keras as keras
 
 class KerasLearningCurve(keras.callbacks.Callback):
     """Keras.callback interface to draw learning curve
